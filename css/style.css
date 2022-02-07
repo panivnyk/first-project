@@ -1,0 +1,212 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:  #F5F7FA;
+}
+.main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 20px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content section */
+
+.main-content-section {
+    padding: 100px 90px;
+}
+.main-content-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+
+/* About me section */
+.about-me {
+    margin-bottom: 40px;
+}
+.about-me-profession {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.about-me-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000;
+    margin-bottom: 25px;
+}
+.about-me-description {
+    width: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+/* End about me section */
+
+/* My projects section */
+
+.my-projects {
+    margin-bottom: 50px;
+    
+}
+
+.my-project-list{
+    padding: 0 0 0 18px;
+}
+.my-projects-item {
+    color: #000; 
+    font-weight: bold;
+}
+.my-projects-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.my-projects-text {
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.my-projects-bracket {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+/* My work experience & My education */
+.my-work-experience {
+   margin-bottom: 45px; 
+}
+.my-work-experience-company {
+    color: #FB6D3A;
+}
+.my-work-experience-position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+.my-education-date-range,
+.my-work-experience-date-range {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 10px;
+    color: #A8A8A8;
+}
+.my-education-divider,
+.my-work-experience-divider {
+    color: #000;
+}
+.my-work-experience-institution,
+.my-work-experience-duties {
+    padding-left: 18px;
+}
+.my-work-experience-duty {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.my-work-experience-company-block {
+margin-bottom: 15px;
+}
+.my-education-list {
+    margin-bottom: 10px;
+    color: #595959;
+}
+.my-education-institution {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-bottom: 10px;
+}
+.my-education-faculty {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* End main content section */
+
+/* Sidebar section */
+.sidebar-section {
+    background-color: #1E2939;
+    width: 370px;
+    padding: 40px 0;
+}
+.sidebar-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color:#fff;
+    margin-bottom: 10px;
+}
+/* Contact section */
+.contacts-section-type {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color:#fff;
+    margin-right: 5px;
+    }
+.contacts-section-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #565e6a;
+}
+/* Tech&soft skills list */
+.contacts-section,
+.tech-skills-section {
+    margin: 50px 0 0 40px;
+}
+.soft-skills-section {
+    margin: 45px 0 0 40px;
+}
+.tech-skills-list,
+.soft-skills-list {
+    padding: 0 0 0 17px;
+}
+.skills-item {
+    color: #FB6D3A;
+}
+.skills-item-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color:#fff;
+}
+/* End sidebar section */
